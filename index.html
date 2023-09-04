@@ -1,0 +1,150 @@
+`<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+
+    <div class="logo m-5 ms-5 mt-4">
+        <img class="img-fluid" id="logo" src="Netflix text png.png" alt="">
+    </div>
+    <div class=" d-flex justify-content-center">
+        <div class="signbox rounded-4 p-5  ">
+            <div class="">
+                <h3>Sign In</h3>
+
+            </div>
+            <div class=" text-white  my-4 inputcontainer">
+                <input oninput="phem()" type="text" id="eop" required>
+                <label class="txtlab ps-3" for="eop">Email or Phone Number</label>
+                <!-- <p id="" class="ms-2 d-none wrn">Please enter the valid email or phone number</p> -->
+
+            </div>
+
+            <div class=" text-white  my-4 inputcontainer">
+                <input oninput="phem1()" type="password" id="pas" required>
+                <label class="txtlab ps-3" for="pas">Password</label>
+                <span onclick="shp()" for="" id="shs" class="sh">SHOW</span>
+                <!-- <p id="" class="ms-2 wrn d-none">Your password must contain between 4 and 15 <br> characters.</p> -->
+
+
+            </div>
+            <div class="ks">
+
+                <button onclick="loi()" class="btn btn-danger w-100">Sign in </button>
+            </div>
+
+            <div class="">
+                <div class="rm d-inline-block">
+                    <input id="cb" type="checkbox">
+                    <label for="cb">Remember me</label>
+                </div>
+                <div class="float-end mt-2">
+                    <a href="" class=" text-decoration-none rm">Need Help ?</a>
+                </div>
+
+            </div>
+            <div class="mt-5">
+                <p class="greytx sp mt-5">New to Netflix ? <a class="ms-2 text-white text-decoration-none" href="signup.html">
+                        Signup now</a> </p>
+
+
+            </div>
+
+
+            <div class="mt-5">
+                <p class="greytx jk">This page is protected by Google reCAPTCHA to <br> ensure you're not a bot. <a
+                        onclick="lemoo()" id="lmn" class="text-primary text-decoration-none">Learn More</a></p>
+            </div>
+
+            <div>
+                <p id="hs" class="greytx mt-2  lm">The information collected by Google reCAPTCHA is <br> subject to the
+                    Google
+                    Privacy Policy and Terms of <br>
+                    Service, and is used for providing, maintaining, and <br> improving the reCAPTCHA service and for
+                    general <br>
+                    security purposes (it is not used for personalised <br> advertising by Google).</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <div id="alrt" class="alert alert-danger position-absolute d-none ">
+        <i class="bi bi-exclamation-triangle-fill pointer me-3"></i><strong>Warning</strong>
+        <span class="ms-3" id="alrtx"></span>
+        <span onclick="su()" class="text-primary ms-3 pointer text-decoration-underline" id="lo"></span>
+        <span onclick="fp()" class="text-primary pointer ms-3 text-decoration-underline" id="fo"></span>
+
+    </div>
+
+    <div class="footer">
+        <div class="container greytx">
+            <div class="container ms-5 ps-5">
+                <p class="pt-4 ff">Questions ? <a class="text-decoration-none text-white" href="">6383114360</a></p>
+                <div class="row">
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">FAQ</a>
+                            </li>
+                            <li class="list-unstyled mt-3"> <a class="text-decoration-none greytx" href="">Cookie
+                                    Prefernces</a> </li>
+                        </ul>
+                        <select class="form-select rounded-1 text-bg-dark bg-opacity-75 mt-4 w-50" name="" id="">
+                            <option value=""> English</option>
+                            <option value="">Tamil</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Help
+                                    Center</a>
+                            </li>
+                            <li class="list-unstyled mt-3"> <a class="text-decoration-none greytx" href="">Corporate
+                                    Information</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Terms of
+                                    Use</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Privacy</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+.logo {
+    width: 28vh;
+
+
+}
+
+
+.si {
+    margin-top: 35px;
+}
+
+.hr {
+    opacity: 0.1;
+}
+
+.bdy {
+    /* border: 2px solid #e50914; */
+    width: 470px;
+    /* height: 510px; */
+}
+
+.footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 280px;
+    background-color: #f3f3f3;
+
+}
+
+.ff {
+    font-size: 20px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.greytx {
+    color: #6b6d6d;
+}
+
+
+.cnn {
+    position: relative;
+}
+
+.cnn input {
+    padding-top: 15px;
+}
+
+.cnl {
+    position: absolute;
+    top: 12px;
+    font-size: 20px;
+    left: 15px;
+    color: rgb(143, 141, 141);
+
+    transition: all 0.3s ease;
+}
+
+.cnn input:focus~.cnl,
+.cnn input:valid~.cnl {
+
+    font-size: 13px;
+    top: 0;
+    left: 3px;
+    padding: 0px 5px;
+
+}
+
+
+.cnnn {
+    position: relative;
+}
+
+.cnnn input {
+    padding-top: 15px;
+
+}
+
+.cnll {
+    position: absolute;
+    top: 12px;
+    font-size: 20px;
+    left: 25px;
+    color: rgb(143, 141, 141);
+    transition: all 0.3s ease;
+}
+
+
+.cnnn input:focus~.cnll,
+.cnnn input:valid~.cnll {
+
+    font-size: 13px;
+    top: 0;
+    left: 12px;
+    padding: 0px 5px;
+
+}
+
+.ipf input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+#pass {
+    padding-right: 45px;
+}
+
+#eye {
+    position: absolute;
+    top: 15px;
+    left: 460px;
+    font-size: 22px;
+    /* background-color: rgb(105, 105, 105); */
+    padding: 9px 9px 9px 9px;
+}
+
+.cm {
+    position: absolute;
+    top: 30px;
+}
+
+.me {
+    margin-left: 55px;
+}
+
+.mt0 {
+    margin-top: -10px;
+}
+
+#ico {
+
+    color: rgb(246, 110, 110);
+
+}
+
+#ico1 {
+
+    color: rgb(246, 110, 110);
+
+
+
+}
+
+.bt {
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.it1,
+.it2,
+.it3,
+.it4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.ir {
+    position: relative;
+}
+
+.it1 {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+
+.it2 {
+    position: absolute;
+    top: 80px;
+    left: 67px;
+}
+
+.it3 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.it4 {
+    position: absolute;
+    top: 80px;
+    left: 52px;
+}
+
+.lck {
+    border: 3px solid red;
+    border-radius: 10000px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: red;
+
+}
+
+.cc img {
+    width: 40px;
+    margin-right: 5px;
+
+}
+
+.cc {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cdd img {
+
+    width: 40px;
+
+}
+
+.cdd {
+    margin-top: -30px;
+}
+
+
+#cn,
+#exp,
+#cvv,
+#fn,
+#ln {
+    height: 55px;
+}
+
+.pl {
+    height: 62px;
+    /* border: 1px solid #333; */
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.cp {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#ccb {
+    zoom: 2;
+}
+
+.he {
+    height: 52px;
+
+}

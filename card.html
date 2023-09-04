@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="">
+        <div class="d-flex  justify-content-between">
+            <div class="logo   ms-5 mt-4">
+                <img class="img-fluid" id="logo" src="Netflix text png.png" alt="">
+            </div>
+            <div class=" me-5  si">
+                <h3>Sign in</h3>
+            </div>
+        </div>
+        <hr class="hr">
+
+
+        <div id="bd1" class="   d-flex justify-content-center">
+            <div class=" bdy px-3  ">
+
+                <div class=" ">
+
+                    <p class=" mb-2 ">STEP <b>3</b> OF <b>3</b> </p>
+                    <h2>Set up your credit or debit card</h2><br>
+
+
+                </div>
+
+                <div class="cdd ">
+                    <p>
+                        <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/VISA@2x.png"
+                            alt="">
+                        <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/MASTERCARD@2x.png"
+                            alt="">
+                        <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/AMEX@2x.png"
+                            alt="">
+                        <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/DINERS@2x.png"
+                            alt="">
+                    </p>
+                </div>
+                <div class="cnn">
+                    <input oninput="cardnu()" id="cn" class="w-100" type="number" required>
+                    <label class="cnl" for="cn">Card number</label>
+                    <p id="wa" style="font-size: 12px;;" class="text-danger d-none m-0 p-0">Please enter a valid card number.
+                    </p>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-6 cnnn ">
+                        <input onkeyup="eexpda()" id="exp" type="text" class="w-100" name="" id="" required>
+                        <label class="cnll" for="exp">Expiration date </label>
+                        <p id="wa" style="font-size: 12px;;" class="text-danger d-none m-0 p-0">Please enter a valid
+                            expiration date. (eg 12/25).</p>
+
+                    </div>
+                    <div class="col-6 cnnn">
+                        <input onkeyup="cvno()" id="cvv" class="w-100" type="number" name="" id="" required>
+                        <label class="cnll" for="cvv">CVV</label>
+                        <p id="wa" style="font-size: 12px;;" class="text-danger d-none m-0 p-0">Please enter a valid CVV code.</p>
+
+                    </div>
+                </div>
+
+                <div class="mt-2 cnn">
+                    <input onkeyup="fn()" id="fn" class="w-100" type="text" required>
+                    <label class="cnl" for="fn">First name</label>
+                    <p id="wa" style="font-size: 12px;;" class="text-danger d-none m-0 p-0">Please enter your first name.
+
+                    </p>
+
+                </div>
+
+                <div class="mt-2 cnn">
+                    <input onkeyup="ln()" id="ln" class="w-100" type="text" required>
+                    <label class="cnl" for="ln">Last name</label>
+                    <p id="wa" style="font-size: 12px;;" class="text-danger d-none m-0 p-0">Please enter your second name.
+
+                    </p>
+
+                </div>
+                <div class="cp">
+                    <div class="mt-2 pl row">
+                        <div class="col-6">
+                            <p class="m-0 p-0">₹ <span id="planamount">199</span>/month</p>
+                            <p id="pde" class="m-0 p-0">Basic</p>
+                        </div>
+                        <div class="col-6 mt-2 text-end">
+
+                            <a class="text-decoration-none " href="signup 4.html">Change</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-3 greytx">
+                    <p style="font-size: 13px;">Any payment above ₹ 2000 shall need additional authentication.</p>
+                </div>
+                <div class="mt-3 greytx">
+                    <p style="font-size: 13px;">By checking the checkbox below, you agree to our <a
+                            class="text-decoration-none " href="">Terms of Use</a> , <a class="text-decoration-none "
+                            href="">Privacy
+                            Statement</a>, and that you are over 18. Netflix will automatically continue your membership
+                        and
+                        charge the membership fee (currently ₹ 199/month) to your payment method until you cancel. You
+                        may cancel at any time to avoid future charges.</p>
+                </div>
+
+                <div class="mt-3 gFreytx row">
+                    <input class="col-1 ms-1 float" id="ccb" type="checkbox">
+                    <label class="ccbl col-3" for="ccb">I agree</label>
+                </div>
+                <div class="mt-3">
+                    <button onclick="stme()" class="btn btn-danger w-100 he">Start membership</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <div class="footer ">
+        <div class="container greytx">
+            <div class="container ms-5 ps-5">
+                <p class="pt-4  ff">Questions ? <a class="text-decoration-none greytx " href="">6383114360</a></p>
+                <div class="row">
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">FAQ</a>
+                            </li>
+                            <li class="list-unstyled mt-3"> <a class="text-decoration-none greytx" href="">Cookie
+                                    Prefernces</a> </li>
+                        </ul>
+                        <select class="form-select rounded-1 text-bg-dark bg-opacity-50 mt-4 w-50" name="" id="">
+                            <option value=""> English</option>
+                            <option value="">Tamil</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Help
+                                    Center</a>
+                            </li>
+                            <li class="list-unstyled mt-3"> <a class="text-decoration-none greytx" href="">Corporate
+                                    Information</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Terms
+                                    of
+                                    Use</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-group">
+                            <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Privacy</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="card.js"></script>
+</body>
+
+</html>

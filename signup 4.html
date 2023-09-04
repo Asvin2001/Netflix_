@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup 4.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="">
+        <div class="d-flex  justify-content-between">
+            <div class="logo   ms-5 mt-4">
+                <img class="img-fluid" id="logo" src="Netflix text png.png" alt="">
+            </div>
+            <div class=" me-5  si">
+                <h3><a class="link-dark text-decoration-none" href="">Sign out</a></h3>
+            </div>
+        </div>
+        <hr class="hr">
+
+
+        <div id="bd1" class="  d-flex justify-content-center">
+            <div class=" bdy px-4  ">
+
+                <div class="">
+
+                    <p class="mt-3 mb-2 ">STEP <b>2</b> OF <b>3</b> </p>
+                    <h1>Choose the plan that’s right for you</h1>
+                    <div class="text-start mt0 position-relative  fw-normal">
+                        <div class="row">
+                            <div class="col-1 "><i style="font-size: 40px; "
+                                    class="bi me-3 text-danger   bi-check-lg"></i> </div>
+
+                            <div class="col-11  ps-0">
+                                <h5 class=" mb-0 mt-3 fw-normal">Watch all you want. Ad-free.</h5>
+
+                            </div>
+                        </div>
+
+                        <div class="row cm">
+                            <div class="col-1 "><i style="font-size: 40px; "
+                                    class="bi me-3 text-danger   bi-check-lg"></i> </div>
+
+                            <div class="col-11 ps-0">
+                                <h5 class=" mb-0 mt-3 me fw-normal">Recommendations just for you.</h5>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-1"><i style="font-size: 40px; " class="bi  text-danger   bi-check-lg"></i>
+                            </div>
+
+                            <div class="col-11 ps-0">
+                                <h5 class=" mb-0 mt-3 fw-normal">Change or cancel your plan anytime.</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div>
+                        <p class="it2">Basic</p>
+                        <p class="it3">Standard</p>
+                        <p class="it4">Premium</p>
+
+                       
+
+inp
+
+
+                    </div> -->
+                    <div class="d-none">
+                        <input type="radio" value="1" name="plan" id="mobi">
+                        <input type="radio" value="2" name="plan" id="basi" checked>
+                        <input type="radio" value="3" name="plan" id="stan">
+                        <input type="radio" value="4" name="plan" id="prem">
+                    </div>
+
+
+                    <div class="row position-sticky pointer top-0 bg-white z-1">
+                        <div class="col-4"></div>
+
+                        <div id="mobil" onclick="mob()" class="col-2   ir text-center"> <i id="ico"
+                                style="font-size: 110px;" class="bi pointer  bi-square-fill"></i>
+                            <p class="it1 pointer ">Mobile</p>
+
+
+                        </div>
+                        <div id="bi" onclick="bas()" class="col-2 ir text-center pointer">
+                            <i id="ico1" style="font-size: 110px;" class="bi   bi-square-fill"></i>
+                            <p class="it2 ">Basic</p>
+
+                        </div>
+                        <div onclick="sta()" class="col-2 ir text-center">
+                            <i id="ico2" style="font-size: 110px;" class="bi   bi-square-fill"></i>
+                            <p class="it3 ">Standard</p>
+
+                        </div>
+                        <div onclick="pre()" class="col-2 ir text-center">
+                            <i id="ico3" style="font-size: 110px;" class="bi   bi-square-fill"></i>
+                            <p class="it4 ">Premium</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row dt">
+                        <div class="col-4">
+                            <p class="bt">Monthly price</p>
+                        </div>
+                        <div id="mobil" onclick="mob()" class="col-2 pointer text-center">
+                            <p class="bt">Free</p>
+                        </div>
+                        <div id="bi" onclick="bas()" class="col-2 pointer text-center">
+                            <p class="bt">₹ 199</p>
+                        </div>
+                        <div id="st" onclick="sta()" class="col-2 pointer text-center">
+                            <p class="bt">₹ 499</p>
+                        </div>
+                        <div id="pr" onclick="pre()" class="col-2 pointer text-center">
+                            <p class="bt">₹ 649</p>
+                        </div>
+
+                    </div>
+                    <hr class="m-2">
+
+
+                    <div class="row dt ">
+                        <div class="col-4">
+                            <p class="bt">Video quality</p>
+                        </div>
+                        <div id="mobil" onclick="mob()" class="col-2 pointer text-center">
+                            <p class="bt">Good
+                            </p>
+                        </div>
+                        <div id="bi" onclick="bas()" class="col-2 pointer text-center">
+                            <p class="bt">Good
+                            </p>
+                        </div>
+                        <div id="st" onclick="sta()" class="col-2 pointer text-center">
+                            <p class="bt">Better</p>
+                        </div>
+                        <div id="pr" onclick="pre()" class="col-2 pointer text-center">
+                            <p class="bt">Best</p>
+                        </div>
+
+                    </div>
+                    <hr class="m-2">
+
+
+
+                    <div class="row dt">
+                        <div class="col-4">
+                            <p class="bt">Resolution</p>
+                        </div>
+                        <div id="mobil" onclick="mob()" class="col-2 pointer text-center">
+                            <p class="bt">480p</p>
+                        </div>
+                        <div id="bi" onclick="bas()" class="col-2 pointer text-center">
+                            <p class="bt">720p</p>
+                        </div>
+                        <div id="st" onclick="sta()" class="col-2 pointer text-center">
+                            <p class="bt">1080p</p>
+                        </div>
+                        <div id="pr" onclick="pre()" class="col-2 pointer text-center">
+                            <p class="bt">4K+HDR</p>
+                        </div>
+
+                    </div>
+                    <hr class="m-2">
+
+
+
+                    <div class="row dt">
+                        <div class="col-4">
+                            <p class="bt">Devices you can use to watch</p>
+                        </div>
+                        <div id="mobil" onclick="mob()" class="col-2 pointer text-center  text-danger">
+                            <i style="font-size: 30px;;" class="bi bi-phone"></i><br>
+                            <i style="font-size: 35px ;" class="bi bi-tablet-landscape"></i>
+                        </div>
+                        <div onclick="bas()" class="col-2 pointer text-center text-danger">
+                            <i style="font-size: 30px;;" class="bi bi-phone"></i><br>
+                            <i style="font-size: 35px ;" class="bi bi-tablet-landscape"></i> <br>
+                            <i style="font-size: 30px;" class="bi bi-laptop"></i> <br>
+                            <i style="font-size: 35px;" class="bi bi-tv"></i>
+                        </div>
+                        <div onclick="sta()" class="col-2 text-center pointer text-danger">
+                            <i style="font-size: 30px;;" class="bi bi-phone"></i><br>
+                            <i style="font-size: 35px ;" class="bi bi-tablet-landscape"></i> <br>
+                            <i style="font-size: 30px;" class="bi bi-laptop"></i> <br>
+                            <i style="font-size: 35px;" class="bi bi-tv"></i>
+                        </div>
+                        <div onclick="pre()" class="col-2 text-center pointer text-danger">
+                            <i style="font-size: 30px;;" class="bi bi-phone"></i><br>
+                            <i style="font-size: 35px ;" class="bi bi-tablet-landscape"></i> <br>
+                            <i style="font-size: 30px;" class="bi bi-laptop"></i> <br>
+                            <i style="font-size: 35px;" class="bi bi-tv"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p style="font-size: 12.5px;" class=" mt-5">HD (720p), Full HD (1080p), Ultra HD (4K) and HDR
+                    availability subject to your internet service and device capabilities. Not all content is available
+                    in all resolutions. See our <a class="text-decoration-none" href=""> Terms of Use </a> for more
+                    details.
+                    Only people who live with you may use your account. Wat</p>
+                <p style="font-size: 12.5px;">Only people who live with you may use your account. Watch on 4 different
+                    devices at the same time with Premium, 2 with Standard, and 1 with Basic and Mobile.</p>
+                <div class="d-flex justify-content-center">
+                    <button onclick="nxt()" style="height: 60px;" class=" btn btn-danger w-50 mt-5">NEXT</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="footer ">
+            <div class="container greytx">
+                <div class="container ms-5 ps-5">
+                    <p class="pt-4  ff">Questions ? <a class="text-decoration-none greytx " href="">6383114360</a></p>
+                    <div class="row">
+                        <div class="col-3">
+                            <ul class="list-group">
+                                <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">FAQ</a>
+                                </li>
+                                <li class="list-unstyled mt-3"> <a class="text-decoration-none greytx" href="">Cookie
+                                        Prefernces</a> </li>
+                            </ul>
+                            <select class="form-select rounded-1 text-bg-dark bg-opacity-50 mt-4 w-50" name="" id="">
+                                <option value=""> English</option>
+                                <option value="">Tamil</option>
+                            </select>
+                        </div>
+                        <div class="col-3">
+                            <ul class="list-group">
+                                <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Help
+                                        Center</a>
+                                </li>
+                                <li class="list-unstyled mt-3"> <a class="text-decoration-none greytx" href="">Corporate
+                                        Information</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul class="list-group">
+                                <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx" href="">Terms
+                                        of
+                                        Use</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul class="list-group">
+                                <li class=" list-unstyled mt-3 "> <a class="text-decoration-none greytx"
+                                        href="">Privacy</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="signup 4.js"></script>
+</body>
+
+</html>
